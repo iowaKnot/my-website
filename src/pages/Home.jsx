@@ -1,5 +1,6 @@
 import { GithubUser } from "../components/GithubUser";
 
+
 export const Home = () => {
   return (
     <div className="bg-slate-200 font-serif">
@@ -27,10 +28,10 @@ export const Home = () => {
           <div className="w-max rounded overflow-hidden shadow-lg bg-slate-100 p-2">
             <p className="font-bold text-slate-800 text-3xl mb-12">My tools</p>
             <div className="flex flex-wrap gap-4">
-              <img className="w-10 h-10" src="my-website-tm/assets/html.png" />
-              <img className="w-10 h-10" src="my-website-tm/assets/tailwindcss.png" />
-              <img className="w-10 h-10" src="my-website-tm/assets/javascript.png" />
-              <img className="w-10 h-10" src="my-website-tm/assets/react.png" />
+              <img className="w-10 h-10" src="src/assets/html.png" />
+              <img className="w-10 h-10" src="src/assets/tailwindcss.png" />
+              <img className="w-10 h-10" src="src/assets/javascript.png" />
+              <img className="w-10 h-10" src="src/assets/react.png" />
             </div>
           </div>
         </div>

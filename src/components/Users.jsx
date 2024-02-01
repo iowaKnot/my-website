@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Constants } from "../constants";
 import { useAxios } from "../hook/useAxios";
 import User from "../pages/User";
