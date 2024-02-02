@@ -24,8 +24,8 @@ export const Users = () => {
   return (
     <>
       <div className="flex justify-center flex-wrap gap-5 p-10 bg-slate-300 font-serif">
-        <div className="w-max rounded overflow-hidden shadow-lg bg-slate-200 p-2">
-          <p className="font-bold text-slate-800 text-2xl">Users</p>
+        <div className="flex flex-col w-max rounded overflow-hidden shadow-lg bg-slate-200 p-2">
+          <p className="font-bold text-slate-800 text-2xl self-center">Users</p>
           <p className="font-semibold text-slate-800 text-xl">
             This is my Users.jsx component, i made it by calling this API:
             <br />
