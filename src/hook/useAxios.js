@@ -36,8 +36,6 @@ export const useAxios = (url, options = { ...DEFAULT_OPTIONS }) => {
           : response.data[options.selector];
 
       setData(result);
-
-      console.log(result);
     } catch (error) {
       console.log(error);
       setError(error.message);
@@ -51,5 +49,6 @@ export const useAxios = (url, options = { ...DEFAULT_OPTIONS }) => {
   return {
     data,
     setData,
+    refetch
   };
 };
